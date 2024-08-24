@@ -20,7 +20,7 @@ int main(){
 	for(i=0;i<16;i++){
 		DATA= (seg[i]);    //Send the hex values one by one to the port 2 as an output.
 	
-		for(j=0;j<19;j++){   // Call 50mS delay 20 times that behaved as 1Sec delay.
+		for(j=0;j<20;j++){   // Call 50mS delay 20 times that behaved as 1Sec delay.
 			delay();
 			}	
 		}
